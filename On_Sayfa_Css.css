@@ -1,0 +1,48 @@
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -515px;
+    }
+}
+.butonluk {
+    position: relative;
+    margin-top: 620px;
+    margin-left: 450px;
+    width: 500px;
+    height: 652px;
+    text-align: center;
+}
+.buton_kardeş {
+    background: orange;
+    border-top-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    width: 800px;
+    height: 500px;
+    border: 9px solid orange;
+    position: center;
+    opacity: 0.9;
+    transition: 0.5s;
+
+}
+
+a:hover{
+    opacity: 150;
+    background-color: orange;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
